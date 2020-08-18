@@ -1,0 +1,87 @@
+.active{
+    transform: translateX(0%);
+}
+.one {
+    box-shadow: 0px 7px 30px #4ac49e;
+  }
+  .two {
+    box-shadow: 0px 7px 30px #ff6464;
+  }
+  .three {
+    box-shadow: 0px 7px 30px #ffe32e;
+  }
+  .four {
+    box-shadow: 0px 7px 30px #b0b1c5;
+  }
+  .five {
+    box-shadow: 0px 7px 30px #98a0ff;
+  }
+  .six {
+    box-shadow: 0px 7px 50px #000000;
+  }
+  .admins{
+    box-shadow: 0px 7px 50px #98a0ff;
+  }
+  .margin {
+    width: 70%;
+    margin-left: 28%;
+  }
+  .admin-margin {
+    width: 71%;
+    padding-left: 2%;
+    margin-left: 27%;
+  }
+  .more-margin {
+    margin-left: 30%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* .card {
+      width: 40%;
+    } */
+    .margin {
+      width: 50%;
+      margin-left: 50%;
+    }
+    .cards-width{
+      width: 90%;
+    }
+    .admin-margin {
+      width: 50%;
+      margin-left: 50%;
+    }
+  }
+  @media screen and (min-width: 1290px) and (max-width: 1490px) {
+    .side-menu{
+      width: 31%;
+    }
+    .admin-margin{
+      width: 70%;
+      margin-left: 29%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    /* .card {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .side-menu {
+      width: 100%;
+      z-index: 1;
+    } */
+    
+    .admins-card {
+      display: none;
+    }
+    .more-margin {
+      margin-left: 0%;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .nav-text {
+      display: none;
+    }
+    .nav-items li {
+      width: 45px;
+    }
+  }
