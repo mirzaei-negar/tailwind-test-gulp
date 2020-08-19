@@ -1,9 +1,6 @@
 .active {
   transform: translateX(0%);
 }
-.admins {
-  box-shadow: 0px 7px 50px #98a0ff;
-}
 .margin {
   width: 70%;
   margin-left: 28%;
