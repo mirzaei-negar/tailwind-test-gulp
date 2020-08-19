@@ -8634,124 +8634,76 @@ video {
   resize: both;
 }
 
-.shadow-xs {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+.shadow-mdGreen {
+  box-shadow: 0px 7px 30px #4ac49e;
 }
 
-.shadow-sm {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+.shadow-mdRed {
+  box-shadow: 0px 7px 30px #ff6464;
 }
 
-.shadow {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+.shadow-mdYellow {
+  box-shadow: 0px 7px 30px #ffe32e;
 }
 
-.shadow-md {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+.shadow-mdGrey {
+  box-shadow: 0px 7px 30px #b0b1c5;
 }
 
-.shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+.shadow-mdBlack {
+  box-shadow: 0px 7px 30px #000000;
 }
 
-.shadow-xl {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+.shadow-mdPurple {
+  box-shadow: 0px 7px 30px #98a0ff;
 }
 
-.shadow-2xl {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+.hover\:shadow-mdGreen:hover {
+  box-shadow: 0px 7px 30px #4ac49e;
 }
 
-.shadow-inner {
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+.hover\:shadow-mdRed:hover {
+  box-shadow: 0px 7px 30px #ff6464;
 }
 
-.shadow-outline {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+.hover\:shadow-mdYellow:hover {
+  box-shadow: 0px 7px 30px #ffe32e;
 }
 
-.shadow-none {
-  box-shadow: none;
+.hover\:shadow-mdGrey:hover {
+  box-shadow: 0px 7px 30px #b0b1c5;
 }
 
-.hover\:shadow-xs:hover {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+.hover\:shadow-mdBlack:hover {
+  box-shadow: 0px 7px 30px #000000;
 }
 
-.hover\:shadow-sm:hover {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+.hover\:shadow-mdPurple:hover {
+  box-shadow: 0px 7px 30px #98a0ff;
 }
 
-.hover\:shadow:hover {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+.focus\:shadow-mdGreen:focus {
+  box-shadow: 0px 7px 30px #4ac49e;
 }
 
-.hover\:shadow-md:hover {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+.focus\:shadow-mdRed:focus {
+  box-shadow: 0px 7px 30px #ff6464;
 }
 
-.hover\:shadow-lg:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+.focus\:shadow-mdYellow:focus {
+  box-shadow: 0px 7px 30px #ffe32e;
 }
 
-.hover\:shadow-xl:hover {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+.focus\:shadow-mdGrey:focus {
+  box-shadow: 0px 7px 30px #b0b1c5;
 }
 
-.hover\:shadow-2xl:hover {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+.focus\:shadow-mdBlack:focus {
+  box-shadow: 0px 7px 30px #000000;
 }
 
-.hover\:shadow-inner:hover {
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.hover\:shadow-outline:hover {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-}
-
-.hover\:shadow-none:hover {
-  box-shadow: none;
-}
-
-.focus\:shadow-xs:focus {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-}
-
-.focus\:shadow-sm:focus {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-}
-
-.focus\:shadow:focus {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-}
-
-.focus\:shadow-md:focus {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.focus\:shadow-lg:focus {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-.focus\:shadow-xl:focus {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
-
-.focus\:shadow-2xl:focus {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-}
-
-.focus\:shadow-inner:focus {
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-}
-
-.focus\:shadow-outline:focus {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-}
-
-.focus\:shadow-none:focus {
-  box-shadow: none;
+.focus\:shadow-mdPurple:focus {
+  box-shadow: 0px 7px 30px #98a0ff;
 }
 
 .fill-current {
@@ -21824,124 +21776,76 @@ video {
     resize: both;
   }
 
-  .xs\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .xs\:shadow-mdGreen {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .xs\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .xs\:shadow-mdRed {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .xs\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .xs\:shadow-mdYellow {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .xs\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .xs\:shadow-mdGrey {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .xs\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .xs\:shadow-mdBlack {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .xs\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .xs\:shadow-mdPurple {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .xs\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .xs\:hover\:shadow-mdGreen:hover {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .xs\:shadow-inner {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  .xs\:hover\:shadow-mdRed:hover {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .xs\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  .xs\:hover\:shadow-mdYellow:hover {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .xs\:shadow-none {
-    box-shadow: none;
+  .xs\:hover\:shadow-mdGrey:hover {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .xs\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .xs\:hover\:shadow-mdBlack:hover {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .xs\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .xs\:hover\:shadow-mdPurple:hover {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .xs\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .xs\:focus\:shadow-mdGreen:focus {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .xs\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .xs\:focus\:shadow-mdRed:focus {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .xs\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .xs\:focus\:shadow-mdYellow:focus {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .xs\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .xs\:focus\:shadow-mdGrey:focus {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .xs\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .xs\:focus\:shadow-mdBlack:focus {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .xs\:hover\:shadow-inner:hover {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xs\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .xs\:hover\:shadow-none:hover {
-    box-shadow: none;
-  }
-
-  .xs\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .xs\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .xs\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xs\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .xs\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .xs\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xs\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .xs\:focus\:shadow-inner:focus {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xs\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .xs\:focus\:shadow-none:focus {
-    box-shadow: none;
+  .xs\:focus\:shadow-mdPurple:focus {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
   .xs\:fill-current {
@@ -34923,124 +34827,76 @@ video {
     resize: both;
   }
 
-  .sm\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .sm\:shadow-mdGreen {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .sm\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .sm\:shadow-mdRed {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .sm\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .sm\:shadow-mdYellow {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .sm\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .sm\:shadow-mdGrey {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .sm\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .sm\:shadow-mdBlack {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .sm\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .sm\:shadow-mdPurple {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .sm\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .sm\:hover\:shadow-mdGreen:hover {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .sm\:shadow-inner {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  .sm\:hover\:shadow-mdRed:hover {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .sm\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  .sm\:hover\:shadow-mdYellow:hover {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .sm\:shadow-none {
-    box-shadow: none;
+  .sm\:hover\:shadow-mdGrey:hover {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .sm\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .sm\:hover\:shadow-mdBlack:hover {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .sm\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .sm\:hover\:shadow-mdPurple:hover {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .sm\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .sm\:focus\:shadow-mdGreen:focus {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .sm\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .sm\:focus\:shadow-mdRed:focus {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .sm\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .sm\:focus\:shadow-mdYellow:focus {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .sm\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .sm\:focus\:shadow-mdGrey:focus {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .sm\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .sm\:focus\:shadow-mdBlack:focus {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .sm\:hover\:shadow-inner:hover {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .sm\:hover\:shadow-none:hover {
-    box-shadow: none;
-  }
-
-  .sm\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .sm\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .sm\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .sm\:focus\:shadow-inner:focus {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .sm\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .sm\:focus\:shadow-none:focus {
-    box-shadow: none;
+  .sm\:focus\:shadow-mdPurple:focus {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
   .sm\:fill-current {
@@ -48022,124 +47878,76 @@ video {
     resize: both;
   }
 
-  .md\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .md\:shadow-mdGreen {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .md\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .md\:shadow-mdRed {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .md\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .md\:shadow-mdYellow {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .md\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .md\:shadow-mdGrey {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .md\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .md\:shadow-mdBlack {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .md\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .md\:shadow-mdPurple {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .md\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .md\:hover\:shadow-mdGreen:hover {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .md\:shadow-inner {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  .md\:hover\:shadow-mdRed:hover {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .md\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  .md\:hover\:shadow-mdYellow:hover {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .md\:shadow-none {
-    box-shadow: none;
+  .md\:hover\:shadow-mdGrey:hover {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .md\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .md\:hover\:shadow-mdBlack:hover {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .md\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .md\:hover\:shadow-mdPurple:hover {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .md\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .md\:focus\:shadow-mdGreen:focus {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .md\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .md\:focus\:shadow-mdRed:focus {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .md\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .md\:focus\:shadow-mdYellow:focus {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .md\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .md\:focus\:shadow-mdGrey:focus {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .md\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .md\:focus\:shadow-mdBlack:focus {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .md\:hover\:shadow-inner:hover {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .md\:hover\:shadow-none:hover {
-    box-shadow: none;
-  }
-
-  .md\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .md\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .md\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .md\:focus\:shadow-inner:focus {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .md\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .md\:focus\:shadow-none:focus {
-    box-shadow: none;
+  .md\:focus\:shadow-mdPurple:focus {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
   .md\:fill-current {
@@ -61121,124 +60929,76 @@ video {
     resize: both;
   }
 
-  .lg\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .lg\:shadow-mdGreen {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .lg\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .lg\:shadow-mdRed {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .lg\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .lg\:shadow-mdYellow {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .lg\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .lg\:shadow-mdGrey {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .lg\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .lg\:shadow-mdBlack {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .lg\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .lg\:shadow-mdPurple {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .lg\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .lg\:hover\:shadow-mdGreen:hover {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .lg\:shadow-inner {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  .lg\:hover\:shadow-mdRed:hover {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .lg\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  .lg\:hover\:shadow-mdYellow:hover {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .lg\:shadow-none {
-    box-shadow: none;
+  .lg\:hover\:shadow-mdGrey:hover {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .lg\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .lg\:hover\:shadow-mdBlack:hover {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .lg\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .lg\:hover\:shadow-mdPurple:hover {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .lg\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .lg\:focus\:shadow-mdGreen:focus {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .lg\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .lg\:focus\:shadow-mdRed:focus {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .lg\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .lg\:focus\:shadow-mdYellow:focus {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .lg\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .lg\:focus\:shadow-mdGrey:focus {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .lg\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .lg\:focus\:shadow-mdBlack:focus {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .lg\:hover\:shadow-inner:hover {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .lg\:hover\:shadow-none:hover {
-    box-shadow: none;
-  }
-
-  .lg\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .lg\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .lg\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .lg\:focus\:shadow-inner:focus {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .lg\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .lg\:focus\:shadow-none:focus {
-    box-shadow: none;
+  .lg\:focus\:shadow-mdPurple:focus {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
   .lg\:fill-current {
@@ -74220,124 +73980,76 @@ video {
     resize: both;
   }
 
-  .xl\:shadow-xs {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .xl\:shadow-mdGreen {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .xl\:shadow-sm {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .xl\:shadow-mdRed {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .xl\:shadow {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .xl\:shadow-mdYellow {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .xl\:shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .xl\:shadow-mdGrey {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .xl\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .xl\:shadow-mdBlack {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .xl\:shadow-xl {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .xl\:shadow-mdPurple {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .xl\:shadow-2xl {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .xl\:hover\:shadow-mdGreen:hover {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .xl\:shadow-inner {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  .xl\:hover\:shadow-mdRed:hover {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .xl\:shadow-outline {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  .xl\:hover\:shadow-mdYellow:hover {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .xl\:shadow-none {
-    box-shadow: none;
+  .xl\:hover\:shadow-mdGrey:hover {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .xl\:hover\:shadow-xs:hover {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  .xl\:hover\:shadow-mdBlack:hover {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .xl\:hover\:shadow-sm:hover {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .xl\:hover\:shadow-mdPurple:hover {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
-  .xl\:hover\:shadow:hover {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  .xl\:focus\:shadow-mdGreen:focus {
+    box-shadow: 0px 7px 30px #4ac49e;
   }
 
-  .xl\:hover\:shadow-md:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  .xl\:focus\:shadow-mdRed:focus {
+    box-shadow: 0px 7px 30px #ff6464;
   }
 
-  .xl\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  .xl\:focus\:shadow-mdYellow:focus {
+    box-shadow: 0px 7px 30px #ffe32e;
   }
 
-  .xl\:hover\:shadow-xl:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  .xl\:focus\:shadow-mdGrey:focus {
+    box-shadow: 0px 7px 30px #b0b1c5;
   }
 
-  .xl\:hover\:shadow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  .xl\:focus\:shadow-mdBlack:focus {
+    box-shadow: 0px 7px 30px #000000;
   }
 
-  .xl\:hover\:shadow-inner:hover {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:hover\:shadow-outline:hover {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .xl\:hover\:shadow-none:hover {
-    box-shadow: none;
-  }
-
-  .xl\:focus\:shadow-xs:focus {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:focus\:shadow-sm:focus {
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:focus\:shadow:focus {
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:focus\:shadow-md:focus {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  }
-
-  .xl\:focus\:shadow-xl:focus {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  .xl\:focus\:shadow-2xl:focus {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  }
-
-  .xl\:focus\:shadow-inner:focus {
-    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  }
-
-  .xl\:focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  }
-
-  .xl\:focus\:shadow-none:focus {
-    box-shadow: none;
+  .xl\:focus\:shadow-mdPurple:focus {
+    box-shadow: 0px 7px 30px #98a0ff;
   }
 
   .xl\:fill-current {
